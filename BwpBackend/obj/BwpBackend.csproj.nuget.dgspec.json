@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\szank\\OneDrive\\Asztali gép\\BookWormsProjekt\\BwpBackend\\BwpBackend.csproj": {}
+    "C:\\BookWormsProjekt\\BwpBackend\\BwpBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\szank\\OneDrive\\Asztali gép\\BookWormsProjekt\\BwpBackend\\BwpBackend.csproj": {
+    "C:\\BookWormsProjekt\\BwpBackend\\BwpBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szank\\OneDrive\\Asztali gép\\BookWormsProjekt\\BwpBackend\\BwpBackend.csproj",
+        "projectUniqueName": "C:\\BookWormsProjekt\\BwpBackend\\BwpBackend.csproj",
         "projectName": "BwpBackend",
-        "projectPath": "C:\\Users\\szank\\OneDrive\\Asztali gép\\BookWormsProjekt\\BwpBackend\\BwpBackend.csproj",
+        "projectPath": "C:\\BookWormsProjekt\\BwpBackend\\BwpBackend.csproj",
         "packagesPath": "C:\\Users\\szank\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szank\\OneDrive\\Asztali gép\\BookWormsProjekt\\BwpBackend\\obj\\",
+        "outputPath": "C:\\BookWormsProjekt\\BwpBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,7 +60,7 @@
               "target": "Package",
               "version": "[8.0.6, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.6, )"
             },

@@ -1,5 +1,6 @@
 using BwpBackend.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 namespace BwpBackend
 {
@@ -10,7 +11,7 @@ namespace BwpBackend
             var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
             var builder = WebApplication.CreateBuilder(args);
-
+            var configuration = builder.Configuration;
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy(name: MyAllowSpecificOrigins,
@@ -24,9 +25,13 @@ namespace BwpBackend
             builder.Services.AddEndpointsApiExplorer();
             //This section below is for connection string 
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-            builder.Services.AddDbContext<BwpDbContext>(options => options.UseSqlServer(connectionString));
+            builder.Services.AddDbContext<BwpDbContext>(options => options.UseSqlite(configuration.GetConnectionString("DefaultConnection")));
 
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGen(c => 
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Working with SQLLite In Asp.net Core Web API", Version = "v1" });
+            }
+            );
 
             var app = builder.Build();
 
