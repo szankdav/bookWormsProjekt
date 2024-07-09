@@ -1,0 +1,9 @@
+@import './base.css';
+
+body {
+  background: url("./img/books.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

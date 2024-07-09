@@ -1,0 +1,6 @@
+@BwpBackend_HostAddress = http://localhost:5225
+
+GET {{BwpBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
