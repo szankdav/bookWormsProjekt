@@ -2,7 +2,7 @@
 import { onMounted, ref } from 'vue';
 import { useGetBooks } from '@/composables/services/apiService';
 
-const { books, error } = useGetBooks('https://localhost:7264/Books')
+const { books, error } = useGetBooks('http://localhost:5225/Books')
 
 </script>
 

@@ -1,7 +1,7 @@
 # IN SEPARATE TERMINALS:
 ## Backend
 cd BwpBackend  
-dotnet run --launch-profile https
+dotnet run
 
 ## Frontend
 cd BwpFrontend  

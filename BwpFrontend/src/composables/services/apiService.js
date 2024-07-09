@@ -7,10 +7,10 @@ export function useGetBooks(url) {
 
     axios({
         method: 'GET',
-        url: 'https://localhost:7264/Books',
+        url: url,
         headers: {
-            'Access-Control-Allow-Origin': 'https://localhost:7264/*',
-            'Content-Type': 'application-json',
+            'Access-Control-Allow-Origin': '*',
+            "Accept": 'application-json',
         }
     })
     .then(res => {
