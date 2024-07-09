@@ -7,24 +7,6 @@ import 'bootstrap/dist/css/bootstrap.css'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 
-// const store = createStore({
-//     state () {
-//         return {
-//             books: []
-//         }
-//     },
-//     mutations: {
-//         addBook (state, book) {
-//             state.books.push(book)
-//         }
-//     },
-//     getters: {
-//         getBooks (state) {
-//             console.log(state.books)
-//         }
-//     }
-// })
-
 const app = createApp(App)
 
 app.use(router, axios, VueAxios)

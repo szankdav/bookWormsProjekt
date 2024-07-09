@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BwpBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf47dc42a5247d513901e2d872b2d99858f2ec36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a9c06fb26776c8bdf16d125a42f58699b9bf897")]
 [assembly: System.Reflection.AssemblyProductAttribute("BwpBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BwpBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
